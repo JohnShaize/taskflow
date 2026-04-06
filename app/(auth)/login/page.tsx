@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { LoginForm } from "@/components/auth/LoginForm";
+import Link from 'next/link'
+import { LoginForm } from '@/components/auth/LoginForm'
 
 function ShieldIcon() {
   return (
@@ -12,7 +12,7 @@ function ShieldIcon() {
     >
       <path d="M12 3l7 3v5c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6l7-3Z" />
     </svg>
-  );
+  )
 }
 
 function LightningIcon() {
@@ -26,7 +26,7 @@ function LightningIcon() {
     >
       <path d="M13 2 6 13h5l-1 9 8-12h-5l1-8Z" />
     </svg>
-  );
+  )
 }
 
 function TeamIcon() {
@@ -43,7 +43,7 @@ function TeamIcon() {
       <path d="M20 21v-2a4 4 0 0 0-3-3.87" />
       <path d="M14.5 4.13a3.25 3.25 0 0 1 0 5.74" />
     </svg>
-  );
+  )
 }
 
 export default function LoginPage() {
@@ -113,18 +113,8 @@ export default function LoginPage() {
           </div>
 
           <LoginForm />
-
-          <div className="mt-8 text-center text-sm text-[rgb(var(--muted-foreground))] lg:hidden">
-            New to TaskFlow?{" "}
-            <Link
-              href="/signup"
-              className="font-medium text-[rgb(var(--foreground))] underline underline-offset-4"
-            >
-              Create an account
-            </Link>
-          </div>
         </div>
       </div>
     </section>
-  );
+  )
 }

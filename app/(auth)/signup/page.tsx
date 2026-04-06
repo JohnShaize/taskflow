@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { SignupForm } from "@/components/auth/SignupForm";
+import Link from 'next/link'
+import { SignupForm } from '@/components/auth/SignupForm'
 
 function SparkIcon() {
   return (
@@ -12,7 +12,7 @@ function SparkIcon() {
     >
       <path d="m12 3 1.8 4.7L18.5 9l-4.7 1.8L12 15.5l-1.8-4.7L5.5 9l4.7-1.3L12 3Z" />
     </svg>
-  );
+  )
 }
 
 function BoardIcon() {
@@ -29,7 +29,7 @@ function BoardIcon() {
       <rect x="13.5" y="10.5" width="7" height="10" rx="1.5" />
       <rect x="3.5" y="12.5" width="7" height="8" rx="1.5" />
     </svg>
-  );
+  )
 }
 
 function CommentIcon() {
@@ -43,7 +43,7 @@ function CommentIcon() {
     >
       <path d="M21 15a3 3 0 0 1-3 3H8l-5 3V6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3Z" />
     </svg>
-  );
+  )
 }
 
 export default function SignupPage() {
@@ -108,24 +108,13 @@ export default function SignupPage() {
               Join TaskFlow
             </h2>
             <p className="mt-3 text-sm leading-7 text-[rgb(var(--muted-foreground))]">
-              Start managing projects, members, tasks, and activity in one clean
-              workspace.
+              Start managing projects, members, tasks, and activity in one clean workspace.
             </p>
           </div>
 
           <SignupForm />
-
-          <div className="mt-8 text-center text-sm text-[rgb(var(--muted-foreground))] lg:hidden">
-            Already have an account?{" "}
-            <Link
-              href="/login"
-              className="font-medium text-[rgb(var(--foreground))] underline underline-offset-4"
-            >
-              Sign in
-            </Link>
-          </div>
         </div>
       </div>
     </section>
-  );
+  )
 }
