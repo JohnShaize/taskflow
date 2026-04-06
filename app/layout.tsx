@@ -15,9 +15,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TaskFlow",
-  description: "A premium project management workspace",
-};
+  title: {
+    default: 'TaskFlow',
+    template: '%s | TaskFlow',
+  },
+  description:
+    'TaskFlow is a collaborative project management platform for teams to organize projects, manage tasks, track progress, and control access with role-based permissions.',
+  icons: {
+    icon: '/icon.png'
+  },
+}
 
 export default function RootLayout({
   children,
