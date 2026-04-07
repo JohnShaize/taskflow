@@ -24,8 +24,7 @@ The project combines a polished responsive UI with practical application archite
 
 ## Live Demo
 
-- **Demo:** `ADD_DEPLOYED_LINK_HERE`
-- **Demo Credentials:** `ADD_IF_NEEDED`
+- **Demo:** `https://taskflow-pi-seven.vercel.app`
 
 ---
 
