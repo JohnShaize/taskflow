@@ -831,14 +831,20 @@ Potential next improvements include:
 
 ## Screenshots
 
-```md
-![Login](./public/screenshots/login.png)
-![Dashboard](./public/screenshots/dashboard.png)
-![Projects](./public/screenshots/projects.png)
-![Board](./public/screenshots/board.png)
-![Members](./public/screenshots/members.png)
-![Inbox](./public/screenshots/inbox.png)
-```
+<table>
+  <tr>
+    <td><img src="./public/screenshots/login.png" alt="Login" /></td>
+    <td><img src="./public/screenshots/dashboard.png" alt="Dashboard" /></td>
+  </tr>
+  <tr>
+    <td><img src="./public/screenshots/projects.png" alt="Projects" /></td>
+    <td><img src="./public/screenshots/board.png" alt="Board" /></td>
+  </tr>
+  <tr>
+    <td><img src="./public/screenshots/members.png" alt="Members" /></td>
+    <td><img src="./public/screenshots/inbox.png" alt="Inbox" /></td>
+  </tr>
+</table>
 
 ---
 
